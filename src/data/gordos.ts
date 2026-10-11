@@ -1,1 +1,209 @@
-PLACEHOLDER_GORDOS
+import { Gordo } from "../types";
+import { MapType } from "../CurrentMapContext";
+
+export const gordos: { [key: string]: Gordo } = {
+    "battygordo_embervalley_1": {
+        name: "Batty Gordo",
+        food: "x50 Fruit; or x25 Pomegranite",
+        pos: { x: -410.394076, y: -675.93115 },
+        image: "iconGordoBatty.png",
+        drops: [ "x12 Batty Slimes", "x1 Jar" ],
+        unlocks: [ "A tunnel that acts as a shortcut to another part of the island" ],
+        description: "Underground at the end of a large cave system to the east.",
+        screenshot: "https://media.mapgenie.io/storage/media/dd2433aa-0091-44d4-9692-c40a44dedc7f.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0204299382"
+    },
+    "boomgordo_embervalley_1": {
+        name: "Boom Gordo",
+        food: "x50 Meat; or x25 Briar Hen",
+        pos: { x: -507.8649902, y: -892.31996 },
+        image: "iconGordoBoom.png",
+        drops: [ "x12 Boom Slimes", "x1 Jar" ],
+        unlocks: [ "A ruins room containing 2x Treasure Pod, a Research Drone, and a Grey Labrinth door" ],
+        description: "Against the ruins wall covering a hole.",
+        screenshot: "https://media.mapgenie.io/storage/media/b20f19b5-e40c-4513-8bf3-9c60be8a03be.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0091013817"
+    },
+    "crystalgordo_embervalley_1": {
+        name: "Crystal Gordo",
+        food: "x50 Veggie; or x25 Odd Onion",
+        pos: { x: -688.03998, y: -531.00001 },
+        image: "iconGordoCrystal.png",
+        drops: [ "x12 Crytal Slimes", "x1 Jar" ],
+        unlocks: [ "A geyser to the upper part of the cliffs and a Map Node" ],
+        description: "On top of a rocky platform near a waterfall.",
+        screenshot: "https://media.mapgenie.io/storage/media/130b46d4-9a0f-4f8b-89b1-9a9224582713.png",
+        dimension: MapType.overworld,
+        internalId: "gordo1394565746"
+    },
+    "rockgordo_embervalley_1": {
+        name: "Rock Gordo",
+        food: "x50 Veggie; or x25 Heart Beet",
+        pos: { x: -570.9500114, y: -322.5700043 },
+        image: "iconGordoRock.png",
+        drops: [ "x12 Rock Slimes", "x1 Jar" ],
+        unlocks: [ "A geyser that leads to an upper cliff containing a Treasure Pod" ],
+        description: "Underground in a cave on top of a plateaued rock.",
+        screenshot: "https://media.mapgenie.io/storage/media/52fae3f0-be5f-4e45-961d-48796f9bb45d.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0647361766"
+    },
+    "tabbygordo_embervalley_1": {
+        name: "Tabby Gordo",
+        food: "x50 Meat; or x25 Stony Hen",
+        pos: { x: -884.21887, y: -581.5182480000001 },
+        image: "iconGordoTabby.png",
+        drops: [ "x12 Tabby Slimes", "x1 Jar" ],
+        unlocks: [ "Ember Valley Teleporter" ],
+        description: "On a teleporter on top of a plateau island.",
+        screenshot: "https://media.mapgenie.io/storage/media/5ecad869-3f64-4e7f-8bb0-70f3e77e5d30.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0924604970"
+    },
+    "sloomber_greylabyrinth_1": {
+        name: "Sloomber Gordo",
+        food: "x30 Meat; or x15 Candied Hen",
+        pos: { x: 383.0451890279302, y: 917.4807360677337 },
+        image: "iconGordoSloomber.png",
+        drops: [ ],
+        unlocks: [ "Conservatory Teleporter" ],
+        description: "Located in the pink windmill area of the map.",
+        screenshot: "https://media.mapgenie.io/storage/media/a5c1a6d2-fa00-45ca-a170-a94f5a1f22e0.png",
+        dimension: MapType.labyrinth,
+        internalId: "gordo1980306476"
+    },
+    "twin_greylabyrinth_1": {
+        name: "Twin Gordo",
+        food: "x50 Fruit; or x25 Polaricherry",
+        pos: { x: 949.5485974725366, y: 1450.1488961068142 },
+        image: "iconGordoTwin.png",
+        drops: [ ],
+        unlocks: [ "Rainbow Fields Teleporter" ],
+        description: "Located inside the dome-like area leading up to the prismacore.",
+        screenshot: "https://media.mapgenie.io/storage/media/74e9c5ce-0c8e-4cd0-b2ff-e7ab04a88c34.jpeg",
+        dimension: MapType.labyrinth,
+        internalId: "gordo1547006325"
+    },
+    "sabergordo_powderfallbluffs_1": {
+        name: "Saber Gordo",
+        food: "x50 Meat; or x25 Thunder Hen",
+        pos: { x: -1655.263913, y: -619.122008 },
+        image: "iconGordoSaber.png",
+        drops: [ "x12 Saber Slimes", "x1 Jar" ],
+        unlocks: [ "Powderfall Bluffs Teleporter" ],
+        description: "In the open on top of a teleporter.",
+        screenshot: "https://media.mapgenie.io/storage/media/406ddfac-0413-4291-8335-ca7033f23f5e.png",
+        dimension: MapType.overworld,
+        internalId: "gordo1269206194"
+    },
+    "cottongordo_rainbowfields_1": {
+        name: "Cotton Gordo",
+        food: "x30 Veggie; or x15 Lettuce",
+        pos: { x: -182.500003, y: 212.360013 },
+        image: "iconGordoCotton.png",
+        drops: [ "x12 Cotton Slimes", "x1 Jar" ],
+        unlocks: [ "The path to the Teleporter Activator" ],
+        description: "Covering a hole at the top of a hill.",
+        screenshot: "https://media.mapgenie.io/storage/media/585888a7-6071-4130-968e-eab2b7a8c11c.png",
+        dimension: MapType.overworld,
+        internalId: "gordo1022215119"
+    },
+    "phosphorgordo_rainbowfields_1": {
+        name: "Phosphor Gordo",
+        food: "x30 Fruit; or x15 Cuberry",
+        pos: { x: -312.27, y: 355.81998999999996 },
+        image: "iconGordoPhosphor.png",
+        drops: [ "x12 Phosphor Slimes", "x1 Jar" ],
+        unlocks: [ "The path to the Tabby Plort Door" ],
+        description: "Inside a cave covering one of the cave doors.",
+        screenshot: "https://media.mapgenie.io/storage/media/0d86b407-952c-4919-8a84-5fa79e6d3904.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0383133132"
+    },
+    "pinkgordo_rainbowfields_1": {
+        name: "Pink Gordo",
+        food: "x30 Fruit, Veggie, or Meat",
+        pos: { x: -394.070019, y: 156.3800124 },
+        image: "iconGordoPink.png",
+        drops: [ "x12 Pink Slimes", "x1 Jar" ],
+        unlocks: [ "A geyser, allowing a launch up to the cliff containing the Teleporter Activator" ],
+        description: "In the open at the end of a path.",
+        screenshot: "https://media.mapgenie.io/storage/media/8c3bb01c-c422-4519-9414-5b54f21c32c8.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0722604697"
+    },
+    "anglergordo_starlightstrand_1": {
+        name: "Angler Gordo",
+        food: "x50 Meat; or x25 Sea Hen",
+        pos: { x: 566.09739, y: 393.3510107 },
+        image: "iconGordoAngler.png",
+        drops: [ "x12 Angler Slimes", "x1 Jar" ],
+        unlocks: [ "A Geyser" ],
+        description: "Underground at the end of a cave just above the water level.",
+        screenshot: "https://media.mapgenie.io/storage/media/256a9e6a-3927-49e5-8b53-0171f04f1fb9.png",
+        dimension: MapType.overworld,
+        internalId: "gordo1762816372"
+    },
+    "fluttergordo_starlightstrand_1": {
+        name: "Flutter Gordo",
+        food: "x30 Nectar; or x15 Moondew Nectar",
+        pos: { x: 625.42008, y: 197.5599887 },
+        image: "iconGordoFlutter.png",
+        drops: [ "x12 Flutter Slimes", "x1 Jar" ],
+        unlocks: [ "A hole into a cave containing a Research Drone, a Treasure Pod, and a Grey Labrinth door" ],
+        description: "On top of a circular platform up the large ruin walls.",
+        screenshot: "https://media.mapgenie.io/storage/media/1b55a912-a6f0-4c4a-9567-42e6c8565fbe.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0589091050"
+    },
+    "honeygordo_starlightstrand_1": {
+        name: "Honey Gordo",
+        food: "x50 Fruit; or x25 Mint Mango",
+        pos: { x: 238.79998, y: 227.59998869999998 },
+        image: "iconGordoHoney.png",
+        drops: [ "x12 Honey Slimes", "x1 Jar" ],
+        unlocks: [ "A cave that leads to 2x Phosphor Plort Door, and a Treasure Pod" ],
+        description: "On top of a ledge across a rock arch blocking a tunnel.",
+        screenshot: "https://media.mapgenie.io/storage/media/37ab25ea-73d3-4534-932e-903956562259.png",
+        dimension: MapType.overworld,
+        internalId: "gordo0445737835"
+    },
+    "huntergordo_starlightstrand_1": {
+        name: "Hunter Gordo",
+        food: "x50 Meat; or x25 Rooster",
+        pos: { x: 448.26998416000004, y: 80.28999869999998 },
+        image: "iconGordoHunter.png",
+        drops: [ "x12 Hunter Slimes", "x1 Jar" ],
+        unlocks: [ "A cave that contains a Treasure Pod and acts as a shortcut to another part of the island if the Hunter Plort Door and the Rock Plort Door are unlocked" ],
+        description: "In an alcove of a cliff covering a cave above the water.",
+        screenshot: "https://media.mapgenie.io/storage/media/6d63fb27-d0e5-4d93-b565-0f0316103cca.png",
+        dimension: MapType.overworld,
+        internalId: "gordo1836740701"
+    },
+    "ringtailgordo_starlightstrand_1": {
+        name: "Ringtail Gordo",
+        food: "x50 Fruit, Veggie, or Meat",
+        pos: { x: 529.41, y: 336.6199987 },
+        image: "iconGordoRingtail.png",
+        drops: [ "x12 Ringtail Slimes", "x1 Jar" ],
+        unlocks: [ "Starlight Strand Teleporter" ],
+        description: "In the open on top of a teleporter.",
+        screenshot: "https://media.mapgenie.io/storage/media/db4f53e8-6214-4d43-8589-9a77433338be.png",
+        dimension: MapType.overworld,
+        internalId: "gordo1114950624"
+    },
+    "hypergordo_zonelabyrinthterrariumjungleglacier_gordo1932334613": {
+        internalId: "gordo1932334613",
+        name: "Hyper Gordo",
+        description: "Todo: insert a description for this gordo gordo1932334613",
+        pos: { x: 792.1985743778118, y: 2173.569976150353 },
+        dimension: MapType.labyrinth,
+        drops: [ "Todo: specify gordo drops" ],
+        unlocks: [ "Todo: specify gordo unlocks" ],
+        food: "x30 Veggie; or x15 Turbo Tater",
+        image: "iconGordoHyper.png",
+        screenshot: "https://media.mapgenie.io/storage/media/1f13a4f9-8bab-4d15-a3af-44614f912d64.jpeg"
+    }
+};
